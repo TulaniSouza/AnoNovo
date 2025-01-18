@@ -1,0 +1,6 @@
+@mixin Header ($justify:space-between, $align:center, $display:flex) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+  width: 40%;
+}

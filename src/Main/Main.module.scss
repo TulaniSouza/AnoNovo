@@ -1,0 +1,25 @@
+@import"../globalStyle/variables";
+
+
+.container {
+    display: flex;
+    color:$primary-color;
+    img{
+        height: 75vh;
+        width: 70%;
+    }
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 28%;
+    font-size: 1.4rem;
+    text-align:right;
+    line-height: 1.5;
+    justify-content: space-around;
+
+    p{
+        display: flex;
+        width: 100%;
+    }
+}
